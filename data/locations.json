@@ -1,0 +1,122 @@
+{
+  "Atlanta": [
+    "Buckhead",
+    "Brookhaven",
+    "Cabbagetown",
+    "Druid Hills",
+    "Downtown",
+    "East Atlanta",
+    "Midtown",
+    "Old Fourth Ward",
+    "Sandy Springs",
+    "West End"
+  ],
+  "Chicago": [
+    "Chinatown",
+    "Englewood",
+    "Hyde Park",
+    "Lincoln Park",
+    "Loop",
+    "North Side",
+    "River North",
+    "South Side",
+    "West Side",
+    "Wicker Park"
+  ],
+  "Dallas": [
+    "Addison",
+    "Bishop Arts District",
+    "Deep Ellum",
+    "Design District",
+    "Downtown",
+    "Highland Park",
+    "Lower Greenville",
+    "Oak Cliff",
+    "Uptown",
+    "West End"
+  ],
+  "Fort Wayne": [
+    "Covington Dells",
+    "Downtown",
+    "Glenbrook",
+    "Lakeside",
+    "New Haven",
+    "North Anthony",
+    "Northwest Fort Wayne",
+    "Southwood Park",
+    "Waynedale",
+    "West Central"
+  ],
+  "Houston": [
+    "Downtown",
+    "East End",
+    "Energy Corridor",
+    "Greenway Plaza",
+    "Heights",
+    "Medical Center",
+    "Midtown",
+    "Montrose",
+    "River Oaks",
+    "Uptown"
+  ],
+  "Indianapolis": [
+    "Broad Ripple",
+    "Castleton",
+    "Downtown",
+    "Fountain Square",
+    "Irvington",
+    "Mass Ave",
+    "Meridian-Kessler",
+    "Nora",
+    "Speedway",
+    "Wholesale District"
+  ],
+  "LA": [
+    "Beverly Hills",
+    "Burbank",
+    "Compton",
+    "Downtown LA",
+    "Hollywood",
+    "Koreatown",
+    "Pasadena",
+    "Santa Monica",
+    "Venice",
+    "Westwood"
+  ],
+  "Maryland": [
+    "Annapolis",
+    "Baltimore Inner Harbor",
+    "Bethesda",
+    "College Park",
+    "Columbia",
+    "Gaithersburg",
+    "Germantown",
+    "Rockville",
+    "Silver Spring",
+    "Towson"
+  ],
+  "NYC": [
+    "Bronx",
+    "Brooklyn",
+    "Chelsea",
+    "Harlem",
+    "Manhattan",
+    "Queens",
+    "SoHo",
+    "Staten Island",
+    "Tribeca",
+    "Williamsburg"
+  ],
+  "Seattle": [
+    "Ballard",
+    "Belltown",
+    "Capitol Hill",
+    "Downtown",
+    "Fremont",
+    "Greenwood",
+    "Queen Anne",
+    "South Lake Union",
+    "University District",
+    "West Seattle"
+  ]
+}
