@@ -1,0 +1,16 @@
+services:
+  airflow:
+    image: apache/airflow:2.10.0
+
+    ports:
+      - "8085:8080"
+
+    environment:
+      - AIRFLOW__CORE__LOAD_EXAMPLES=False
+      - AIRFLOW__CORE__EXECUTOR=SequentialExecutor
+    volumes:
+      # These dots (.) mean "look in the exact same folder where this docker-compose file lives"
+      - ./dags:/opt/airflow/dags
+      - ./logs:/opt/airflow/logs
+      - ./plugins:/opt/airflow/plugins
+    command: standalone

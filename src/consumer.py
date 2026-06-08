@@ -47,7 +47,8 @@ CREATE TABLE IF NOT EXISTS rides (
     location STRING,
     area STRING,
     fare FLOAT,
-    timestamp TIMESTAMP
+    timestamp TIMESTAMP,
+    load_time TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 )
 """)
 conn.commit()

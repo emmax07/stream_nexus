@@ -1,5 +1,3 @@
-version: "3.8"
-
 services:
   zookeeper:
     image: confluentinc/cp-zookeeper:7.4.0
@@ -16,8 +14,21 @@ services:
     environment:
       KAFKA_BROKER_ID: 1
       KAFKA_ZOOKEEPER_CONNECT: zookeeper:2181
-      # Configured dual listeners: PLAINTEXT for outside Docker (your host machine), PLAINTEXT_INTERNAL for inside Docker
       KAFKA_LISTENER_SECURITY_PROTOCOL_MAP: PLAINTEXT:PLAINTEXT,PLAINTEXT_INTERNAL:PLAINTEXT
       KAFKA_ADVERTISED_LISTENERS: PLAINTEXT://localhost:9092,PLAINTEXT_INTERNAL://kafka:29092
       KAFKA_INTER_BROKER_LISTENER_NAME: PLAINTEXT_INTERNAL
       KAFKA_OFFSETS_TOPIC_REPLICATION_FACTOR: 1
+
+  akhq:
+    image: tchiotludo/akhq:0.25.0
+    depends_on:
+      - kafka
+    ports:
+      - "8086:8080"
+    environment:
+      AKHQ_CONFIGURATION: |
+        akhq:
+          connections:
+            docker-kafka:
+              properties:
+                bootstrap.servers: "kafka:29092"

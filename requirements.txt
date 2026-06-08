@@ -1,3 +1,6 @@
-kafka-python==2.0.2
-snowflake-connector-python==3.7.0
-python-dotenv==1.0.1
+kafka-python
+snowflake-connector-python
+python-dotenv
+streamlit
+pandas
+plotly

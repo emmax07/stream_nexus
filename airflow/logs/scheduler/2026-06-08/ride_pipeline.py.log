@@ -1,0 +1,130 @@
+[2026-06-08T17:05:04.972+0000] {processor.py:186} INFO - Started process (PID=51) to work on /opt/airflow/dags/ride_pipeline.py
+[2026-06-08T17:05:04.977+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/ride_pipeline.py for tasks to queue
+[2026-06-08T17:05:04.995+0000] {logging_mixin.py:190} INFO - [2026-06-08T17:05:04.994+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/ride_pipeline.py
+[2026-06-08T17:05:14.013+0000] {processor.py:925} INFO - DAG(s) 'ride_pipeline' retrieved from /opt/airflow/dags/ride_pipeline.py
+[2026-06-08T17:05:14.370+0000] {logging_mixin.py:190} INFO - [2026-06-08T17:05:14.368+0000] {override.py:1858} INFO - Created Permission View: can delete on DAG:ride_pipeline
+[2026-06-08T17:05:14.399+0000] {logging_mixin.py:190} INFO - [2026-06-08T17:05:14.398+0000] {override.py:1858} INFO - Created Permission View: can read on DAG:ride_pipeline
+[2026-06-08T17:05:14.420+0000] {logging_mixin.py:190} INFO - [2026-06-08T17:05:14.419+0000] {override.py:1858} INFO - Created Permission View: can edit on DAG:ride_pipeline
+[2026-06-08T17:05:14.422+0000] {logging_mixin.py:190} INFO - [2026-06-08T17:05:14.421+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2026-06-08T17:05:14.474+0000] {logging_mixin.py:190} INFO - [2026-06-08T17:05:14.472+0000] {dag.py:3234} INFO - Creating ORM DAG for ride_pipeline
+[2026-06-08T17:05:14.510+0000] {logging_mixin.py:190} INFO - [2026-06-08T17:05:14.509+0000] {dag.py:4138} INFO - Setting next_dagrun for ride_pipeline to 2026-06-08 16:00:00+00:00, run_after=2026-06-08 17:00:00+00:00
+[2026-06-08T17:05:14.573+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/ride_pipeline.py took 9.625 seconds
+[2026-06-08T17:05:45.237+0000] {processor.py:186} INFO - Started process (PID=65) to work on /opt/airflow/dags/ride_pipeline.py
+[2026-06-08T17:05:45.240+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/ride_pipeline.py for tasks to queue
+[2026-06-08T17:05:45.250+0000] {logging_mixin.py:190} INFO - [2026-06-08T17:05:45.249+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/ride_pipeline.py
+[2026-06-08T17:05:49.376+0000] {processor.py:925} INFO - DAG(s) 'ride_pipeline' retrieved from /opt/airflow/dags/ride_pipeline.py
+[2026-06-08T17:05:49.442+0000] {logging_mixin.py:190} INFO - [2026-06-08T17:05:49.441+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2026-06-08T17:05:49.507+0000] {logging_mixin.py:190} INFO - [2026-06-08T17:05:49.506+0000] {dag.py:4138} INFO - Setting next_dagrun for ride_pipeline to 2026-06-08 16:00:00+00:00, run_after=2026-06-08 17:00:00+00:00
+[2026-06-08T17:05:49.573+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/ride_pipeline.py took 4.317 seconds
+[2026-06-08T17:06:19.917+0000] {processor.py:186} INFO - Started process (PID=78) to work on /opt/airflow/dags/ride_pipeline.py
+[2026-06-08T17:06:19.918+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/ride_pipeline.py for tasks to queue
+[2026-06-08T17:06:19.920+0000] {logging_mixin.py:190} INFO - [2026-06-08T17:06:19.920+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/ride_pipeline.py
+[2026-06-08T17:06:20.730+0000] {processor.py:925} INFO - DAG(s) 'ride_pipeline' retrieved from /opt/airflow/dags/ride_pipeline.py
+[2026-06-08T17:06:20.748+0000] {logging_mixin.py:190} INFO - [2026-06-08T17:06:20.747+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2026-06-08T17:06:20.770+0000] {logging_mixin.py:190} INFO - [2026-06-08T17:06:20.769+0000] {dag.py:4138} INFO - Setting next_dagrun for ride_pipeline to 2026-06-08 16:00:00+00:00, run_after=2026-06-08 17:00:00+00:00
+[2026-06-08T17:06:20.793+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/ride_pipeline.py took 0.882 seconds
+[2026-06-08T17:06:50.975+0000] {processor.py:186} INFO - Started process (PID=83) to work on /opt/airflow/dags/ride_pipeline.py
+[2026-06-08T17:06:50.976+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/ride_pipeline.py for tasks to queue
+[2026-06-08T17:06:50.980+0000] {logging_mixin.py:190} INFO - [2026-06-08T17:06:50.979+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/ride_pipeline.py
+[2026-06-08T17:06:51.900+0000] {processor.py:925} INFO - DAG(s) 'ride_pipeline' retrieved from /opt/airflow/dags/ride_pipeline.py
+[2026-06-08T17:06:51.919+0000] {logging_mixin.py:190} INFO - [2026-06-08T17:06:51.919+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2026-06-08T17:06:51.944+0000] {logging_mixin.py:190} INFO - [2026-06-08T17:06:51.943+0000] {dag.py:4138} INFO - Setting next_dagrun for ride_pipeline to 2026-06-08 16:00:00+00:00, run_after=2026-06-08 17:00:00+00:00
+[2026-06-08T17:06:51.973+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/ride_pipeline.py took 1.005 seconds
+[2026-06-08T17:07:22.266+0000] {processor.py:186} INFO - Started process (PID=88) to work on /opt/airflow/dags/ride_pipeline.py
+[2026-06-08T17:07:22.267+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/ride_pipeline.py for tasks to queue
+[2026-06-08T17:07:22.272+0000] {logging_mixin.py:190} INFO - [2026-06-08T17:07:22.271+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/ride_pipeline.py
+[2026-06-08T17:07:23.221+0000] {processor.py:925} INFO - DAG(s) 'ride_pipeline' retrieved from /opt/airflow/dags/ride_pipeline.py
+[2026-06-08T17:07:23.246+0000] {logging_mixin.py:190} INFO - [2026-06-08T17:07:23.245+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2026-06-08T17:07:23.286+0000] {logging_mixin.py:190} INFO - [2026-06-08T17:07:23.285+0000] {dag.py:4138} INFO - Setting next_dagrun for ride_pipeline to 2026-06-08 16:00:00+00:00, run_after=2026-06-08 17:00:00+00:00
+[2026-06-08T17:07:23.313+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/ride_pipeline.py took 1.056 seconds
+[2026-06-08T17:07:53.522+0000] {processor.py:186} INFO - Started process (PID=92) to work on /opt/airflow/dags/ride_pipeline.py
+[2026-06-08T17:07:53.523+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/ride_pipeline.py for tasks to queue
+[2026-06-08T17:07:53.526+0000] {logging_mixin.py:190} INFO - [2026-06-08T17:07:53.526+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/ride_pipeline.py
+[2026-06-08T17:07:54.320+0000] {processor.py:925} INFO - DAG(s) 'ride_pipeline' retrieved from /opt/airflow/dags/ride_pipeline.py
+[2026-06-08T17:07:54.337+0000] {logging_mixin.py:190} INFO - [2026-06-08T17:07:54.337+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2026-06-08T17:07:54.358+0000] {logging_mixin.py:190} INFO - [2026-06-08T17:07:54.358+0000] {dag.py:4138} INFO - Setting next_dagrun for ride_pipeline to 2026-06-08 16:00:00+00:00, run_after=2026-06-08 17:00:00+00:00
+[2026-06-08T17:07:54.383+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/ride_pipeline.py took 0.868 seconds
+[2026-06-08T17:08:24.558+0000] {processor.py:186} INFO - Started process (PID=96) to work on /opt/airflow/dags/ride_pipeline.py
+[2026-06-08T17:08:24.559+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/ride_pipeline.py for tasks to queue
+[2026-06-08T17:08:24.562+0000] {logging_mixin.py:190} INFO - [2026-06-08T17:08:24.562+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/ride_pipeline.py
+[2026-06-08T17:08:25.387+0000] {processor.py:925} INFO - DAG(s) 'ride_pipeline' retrieved from /opt/airflow/dags/ride_pipeline.py
+[2026-06-08T17:08:25.406+0000] {logging_mixin.py:190} INFO - [2026-06-08T17:08:25.405+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2026-06-08T17:08:25.430+0000] {logging_mixin.py:190} INFO - [2026-06-08T17:08:25.430+0000] {dag.py:4138} INFO - Setting next_dagrun for ride_pipeline to 2026-06-08 16:00:00+00:00, run_after=2026-06-08 17:00:00+00:00
+[2026-06-08T17:08:25.456+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/ride_pipeline.py took 0.905 seconds
+[2026-06-08T17:08:55.706+0000] {processor.py:186} INFO - Started process (PID=100) to work on /opt/airflow/dags/ride_pipeline.py
+[2026-06-08T17:08:55.707+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/ride_pipeline.py for tasks to queue
+[2026-06-08T17:08:55.710+0000] {logging_mixin.py:190} INFO - [2026-06-08T17:08:55.710+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/ride_pipeline.py
+[2026-06-08T17:08:56.530+0000] {processor.py:925} INFO - DAG(s) 'ride_pipeline' retrieved from /opt/airflow/dags/ride_pipeline.py
+[2026-06-08T17:08:56.550+0000] {logging_mixin.py:190} INFO - [2026-06-08T17:08:56.549+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2026-06-08T17:08:56.571+0000] {logging_mixin.py:190} INFO - [2026-06-08T17:08:56.571+0000] {dag.py:4138} INFO - Setting next_dagrun for ride_pipeline to 2026-06-08 16:00:00+00:00, run_after=2026-06-08 17:00:00+00:00
+[2026-06-08T17:08:56.598+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/ride_pipeline.py took 0.900 seconds
+[2026-06-08T17:09:26.862+0000] {processor.py:186} INFO - Started process (PID=104) to work on /opt/airflow/dags/ride_pipeline.py
+[2026-06-08T17:09:26.864+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/ride_pipeline.py for tasks to queue
+[2026-06-08T17:09:26.868+0000] {logging_mixin.py:190} INFO - [2026-06-08T17:09:26.867+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/ride_pipeline.py
+[2026-06-08T17:09:27.679+0000] {processor.py:925} INFO - DAG(s) 'ride_pipeline' retrieved from /opt/airflow/dags/ride_pipeline.py
+[2026-06-08T17:09:27.700+0000] {logging_mixin.py:190} INFO - [2026-06-08T17:09:27.700+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2026-06-08T17:09:27.721+0000] {logging_mixin.py:190} INFO - [2026-06-08T17:09:27.720+0000] {dag.py:4138} INFO - Setting next_dagrun for ride_pipeline to 2026-06-08 16:00:00+00:00, run_after=2026-06-08 17:00:00+00:00
+[2026-06-08T17:09:27.743+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/ride_pipeline.py took 0.888 seconds
+[2026-06-08T17:09:57.947+0000] {processor.py:186} INFO - Started process (PID=109) to work on /opt/airflow/dags/ride_pipeline.py
+[2026-06-08T17:09:57.951+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/ride_pipeline.py for tasks to queue
+[2026-06-08T17:09:57.958+0000] {logging_mixin.py:190} INFO - [2026-06-08T17:09:57.957+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/ride_pipeline.py
+[2026-06-08T17:09:59.460+0000] {processor.py:925} INFO - DAG(s) 'ride_pipeline' retrieved from /opt/airflow/dags/ride_pipeline.py
+[2026-06-08T17:09:59.493+0000] {logging_mixin.py:190} INFO - [2026-06-08T17:09:59.492+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2026-06-08T17:09:59.543+0000] {logging_mixin.py:190} INFO - [2026-06-08T17:09:59.542+0000] {dag.py:4138} INFO - Setting next_dagrun for ride_pipeline to 2026-06-08 16:00:00+00:00, run_after=2026-06-08 17:00:00+00:00
+[2026-06-08T17:09:59.585+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/ride_pipeline.py took 1.653 seconds
+[2026-06-08T17:10:29.890+0000] {processor.py:186} INFO - Started process (PID=114) to work on /opt/airflow/dags/ride_pipeline.py
+[2026-06-08T17:10:29.893+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/ride_pipeline.py for tasks to queue
+[2026-06-08T17:10:29.898+0000] {logging_mixin.py:190} INFO - [2026-06-08T17:10:29.897+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/ride_pipeline.py
+[2026-06-08T17:10:31.256+0000] {processor.py:925} INFO - DAG(s) 'ride_pipeline' retrieved from /opt/airflow/dags/ride_pipeline.py
+[2026-06-08T17:10:31.276+0000] {logging_mixin.py:190} INFO - [2026-06-08T17:10:31.276+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2026-06-08T17:10:31.303+0000] {logging_mixin.py:190} INFO - [2026-06-08T17:10:31.302+0000] {dag.py:4138} INFO - Setting next_dagrun for ride_pipeline to 2026-06-08 16:00:00+00:00, run_after=2026-06-08 17:00:00+00:00
+[2026-06-08T17:10:31.329+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/ride_pipeline.py took 1.453 seconds
+[2026-06-08T17:11:01.524+0000] {processor.py:186} INFO - Started process (PID=118) to work on /opt/airflow/dags/ride_pipeline.py
+[2026-06-08T17:11:01.525+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/ride_pipeline.py for tasks to queue
+[2026-06-08T17:11:01.528+0000] {logging_mixin.py:190} INFO - [2026-06-08T17:11:01.527+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/ride_pipeline.py
+[2026-06-08T17:11:02.311+0000] {processor.py:925} INFO - DAG(s) 'ride_pipeline' retrieved from /opt/airflow/dags/ride_pipeline.py
+[2026-06-08T17:11:02.332+0000] {logging_mixin.py:190} INFO - [2026-06-08T17:11:02.331+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2026-06-08T17:11:02.357+0000] {logging_mixin.py:190} INFO - [2026-06-08T17:11:02.357+0000] {dag.py:4138} INFO - Setting next_dagrun for ride_pipeline to 2026-06-08 16:00:00+00:00, run_after=2026-06-08 17:00:00+00:00
+[2026-06-08T17:11:02.384+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/ride_pipeline.py took 0.867 seconds
+[2026-06-08T17:11:32.572+0000] {processor.py:186} INFO - Started process (PID=122) to work on /opt/airflow/dags/ride_pipeline.py
+[2026-06-08T17:11:32.573+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/ride_pipeline.py for tasks to queue
+[2026-06-08T17:11:32.576+0000] {logging_mixin.py:190} INFO - [2026-06-08T17:11:32.575+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/ride_pipeline.py
+[2026-06-08T17:11:33.370+0000] {processor.py:925} INFO - DAG(s) 'ride_pipeline' retrieved from /opt/airflow/dags/ride_pipeline.py
+[2026-06-08T17:11:33.388+0000] {logging_mixin.py:190} INFO - [2026-06-08T17:11:33.388+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2026-06-08T17:11:33.408+0000] {logging_mixin.py:190} INFO - [2026-06-08T17:11:33.408+0000] {dag.py:4138} INFO - Setting next_dagrun for ride_pipeline to 2026-06-08 16:00:00+00:00, run_after=2026-06-08 17:00:00+00:00
+[2026-06-08T17:11:33.431+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/ride_pipeline.py took 0.865 seconds
+[2026-06-08T17:12:03.631+0000] {processor.py:186} INFO - Started process (PID=133) to work on /opt/airflow/dags/ride_pipeline.py
+[2026-06-08T17:12:03.634+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/ride_pipeline.py for tasks to queue
+[2026-06-08T17:12:03.638+0000] {logging_mixin.py:190} INFO - [2026-06-08T17:12:03.638+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/ride_pipeline.py
+[2026-06-08T17:12:04.847+0000] {processor.py:925} INFO - DAG(s) 'ride_pipeline' retrieved from /opt/airflow/dags/ride_pipeline.py
+[2026-06-08T17:12:04.873+0000] {logging_mixin.py:190} INFO - [2026-06-08T17:12:04.872+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2026-06-08T17:12:04.900+0000] {logging_mixin.py:190} INFO - [2026-06-08T17:12:04.900+0000] {dag.py:4138} INFO - Setting next_dagrun for ride_pipeline to 2026-06-08 16:00:00+00:00, run_after=2026-06-08 17:00:00+00:00
+[2026-06-08T17:12:04.927+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/ride_pipeline.py took 1.305 seconds
+[2026-06-08T17:12:35.199+0000] {processor.py:186} INFO - Started process (PID=137) to work on /opt/airflow/dags/ride_pipeline.py
+[2026-06-08T17:12:35.200+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/ride_pipeline.py for tasks to queue
+[2026-06-08T17:12:35.203+0000] {logging_mixin.py:190} INFO - [2026-06-08T17:12:35.203+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/ride_pipeline.py
+[2026-06-08T17:12:37.052+0000] {processor.py:925} INFO - DAG(s) 'ride_pipeline' retrieved from /opt/airflow/dags/ride_pipeline.py
+[2026-06-08T17:12:37.156+0000] {logging_mixin.py:190} INFO - [2026-06-08T17:12:37.155+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2026-06-08T17:12:37.248+0000] {logging_mixin.py:190} INFO - [2026-06-08T17:12:37.248+0000] {dag.py:4138} INFO - Setting next_dagrun for ride_pipeline to 2026-06-08 16:00:00+00:00, run_after=2026-06-08 17:00:00+00:00
+[2026-06-08T17:12:37.357+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/ride_pipeline.py took 2.165 seconds
+[2026-06-08T17:13:07.677+0000] {processor.py:186} INFO - Started process (PID=141) to work on /opt/airflow/dags/ride_pipeline.py
+[2026-06-08T17:13:07.681+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/ride_pipeline.py for tasks to queue
+[2026-06-08T17:13:07.686+0000] {logging_mixin.py:190} INFO - [2026-06-08T17:13:07.686+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/ride_pipeline.py
+[2026-06-08T17:13:09.337+0000] {processor.py:925} INFO - DAG(s) 'ride_pipeline' retrieved from /opt/airflow/dags/ride_pipeline.py
+[2026-06-08T17:13:09.369+0000] {logging_mixin.py:190} INFO - [2026-06-08T17:13:09.368+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2026-06-08T17:13:09.403+0000] {logging_mixin.py:190} INFO - [2026-06-08T17:13:09.402+0000] {dag.py:4138} INFO - Setting next_dagrun for ride_pipeline to 2026-06-08 16:00:00+00:00, run_after=2026-06-08 17:00:00+00:00
+[2026-06-08T17:13:09.447+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/ride_pipeline.py took 1.781 seconds
+[2026-06-08T17:13:39.802+0000] {processor.py:186} INFO - Started process (PID=145) to work on /opt/airflow/dags/ride_pipeline.py
+[2026-06-08T17:13:39.807+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/ride_pipeline.py for tasks to queue
+[2026-06-08T17:13:39.832+0000] {logging_mixin.py:190} INFO - [2026-06-08T17:13:39.831+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/ride_pipeline.py
+[2026-06-08T17:13:44.045+0000] {processor.py:925} INFO - DAG(s) 'ride_pipeline' retrieved from /opt/airflow/dags/ride_pipeline.py
+[2026-06-08T17:13:44.109+0000] {logging_mixin.py:190} INFO - [2026-06-08T17:13:44.108+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2026-06-08T17:13:44.176+0000] {logging_mixin.py:190} INFO - [2026-06-08T17:13:44.175+0000] {dag.py:4138} INFO - Setting next_dagrun for ride_pipeline to 2026-06-08 16:00:00+00:00, run_after=2026-06-08 17:00:00+00:00
+[2026-06-08T17:13:44.231+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/ride_pipeline.py took 4.462 seconds
+[2026-06-08T17:14:14.543+0000] {processor.py:186} INFO - Started process (PID=149) to work on /opt/airflow/dags/ride_pipeline.py
+[2026-06-08T17:14:14.545+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/ride_pipeline.py for tasks to queue
+[2026-06-08T17:14:14.550+0000] {logging_mixin.py:190} INFO - [2026-06-08T17:14:14.549+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/ride_pipeline.py
+[2026-06-08T17:14:15.971+0000] {processor.py:925} INFO - DAG(s) 'ride_pipeline' retrieved from /opt/airflow/dags/ride_pipeline.py
+[2026-06-08T17:14:16.001+0000] {logging_mixin.py:190} INFO - [2026-06-08T17:14:16.000+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2026-06-08T17:14:16.039+0000] {logging_mixin.py:190} INFO - [2026-06-08T17:14:16.038+0000] {dag.py:4138} INFO - Setting next_dagrun for ride_pipeline to 2026-06-08 16:00:00+00:00, run_after=2026-06-08 17:00:00+00:00
+[2026-06-08T17:14:16.075+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/ride_pipeline.py took 1.546 seconds
