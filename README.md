@@ -49,6 +49,13 @@ stream_nexus/
 ├──src/
 ├──├── producer.py
 ├──├── consumer.py
+├──airflow/
+│──├── docker-compose.yml
+│──├── dags/
+│──├──├── check_snowflake.py
+│──├──├── ride_pipeline.py
+│──├──├── test_sync.py
+│──└──└── check_kafka.py
 ├── docker-compose.yml
 ├── .env
 ├── requirements.txt
@@ -145,10 +152,22 @@ Cloud data warehouse integration
 Data engineering best practices
 Modular project structure
 
-## Future Improvements
+## Improvements Done
 
-Add Apache Airflow orchestration
-Add data validation layer
-Add monitoring & logging
-Build Power BI dashboard
-Add surge pricing simulation
+The core streaming engine has been re-architected from a basic, single-track scripting setup into a highly decoupled, production-grade streaming framework:
+
+# Advanced Market Simulation:
+
+Re-engineered the payload engine to compute real-time simulation math (`src/simulation.py`). The system now tracks computer clock cycles to dynamically generate rush-hour traffic vectors and applies an exponential supply-to-demand surge pricing matrix alongside a sequential 4-state ride lifecycle (`SEARCHING` → `ACCEPTED` → `ARRIVED` → `EN_ROUTE`).
+
+# Non-Blocking Consumer Core:
+
+Shifted the ingestion layer to a `consumer.poll()` pattern. This prevents thread lock, isolates micro-batches, and enforces a mandatory 10-second data flush mechanism to guarantee downstream consistency in Snowflake regardless of Kafka traffic volume.
+
+# Production-Grade Airflow Orchestration:
+
+Eliminated the infinite-loop subprocess block. Airflow has been promoted to a non-blocking Infrastructure Auditor & Monitor that wakes up `@hourly` to probe broker health and validate Snowflake table accumulation, backed by automated retry and error-recovery policies.
+
+# Real-Time Operations Analytics:
+
+Expanded the target Snowflake warehouse schema to a 15-dimensional matrix. Upgraded the Streamlit control tower with an auto-refresh engine, live operational scorecards (Gross Revenue, Max Surge Factors), and scatter plots mapping price volatility directly against traffic delay vectors.
